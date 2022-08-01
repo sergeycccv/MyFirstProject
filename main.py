@@ -1,3 +1,6 @@
+import mod
+
+
 def print_hi(name: str):
     print('Как тебя зовут?')
     name = input()
@@ -9,5 +12,6 @@ def print_hi_user01():
 
 
 if __name__ == '__main__':
+    print('HI')
     print_hi('PyCharm')
     print_hi_user01()
